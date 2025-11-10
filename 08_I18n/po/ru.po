@@ -1,0 +1,51 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, 
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-10 20:38+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /Users/a.s.butylkin/practikum/linux_dev_2025/08_I18n/src/guess.c:13
+#, c-format
+msgid "Pick a number 1-100\n"
+msgstr "Выберите число 1-100"
+
+#: /Users/a.s.butylkin/practikum/linux_dev_2025/08_I18n/src/guess.c:19
+#, c-format
+msgid ">%d? (y/n): "
+msgstr ">%d? (д/н): "
+
+#: /Users/a.s.butylkin/practikum/linux_dev_2025/08_I18n/src/guess.c:23
+#, c-format
+msgid "Input error\n"
+msgstr "Ошибки"
+
+#: /Users/a.s.butylkin/practikum/linux_dev_2025/08_I18n/src/guess.c:29
+msgid "y"
+msgstr "д"
+
+#: /Users/a.s.butylkin/practikum/linux_dev_2025/08_I18n/src/guess.c:31
+msgid "n"
+msgstr "н"
+
+#: /Users/a.s.butylkin/practikum/linux_dev_2025/08_I18n/src/guess.c:34
+#, c-format
+msgid "Invalid answer\n"
+msgstr "Не правильный ответ"
+
+#: /Users/a.s.butylkin/practikum/linux_dev_2025/08_I18n/src/guess.c:38
+#, c-format
+msgid "Your number: %d\n"
+msgstr "Ваше число"
