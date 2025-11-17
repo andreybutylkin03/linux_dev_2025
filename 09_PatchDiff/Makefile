@@ -1,4 +1,4 @@
-CFLAGS = -Wall -Wextra
+CFLAGS = -Wall -Wextra -Werror
 TARGET = main main1 main2 main3
 GENERATES = $(TARGET) main1.c main2.c main3.c
 PATCHES = 1.patch 2.patch 3.patch
