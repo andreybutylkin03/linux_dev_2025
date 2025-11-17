@@ -1,0 +1,20 @@
+--- main.c	2025-12-21 22:15:24
++++ main1.c	2025-12-21 22:15:35
+@@ -3,7 +3,7 @@
+ #include <time.h>
+ #include <string.h>
+ 
+-#define N 6
++#define N (argc > 1 ? atoi(argv[1]) : 6)
+ 
+ void gen(int h, int w, char maze[h][w]) {
+     for (int i = 0; i < h; i++) 
+@@ -51,7 +51,7 @@
+     }
+ }
+ 
+-int main() {
++int main(int argc, char *argv[]) {
+     srand(time(NULL));
+     int h = 2*N+1, w = 2*N+1;
+     char maze[h][w];
